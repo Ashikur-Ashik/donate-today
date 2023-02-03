@@ -59,7 +59,18 @@
     display: flex;
 }
 .box{
-    padding: 45px 55px;
-    border: 1px solid gray;
+    padding: 40px 50px;
+    margin-right: 2%;
+    background-color: #e5e2e2;
+    font-size: 25px;
+    font-weight: 700;
+}
+.donate_divided :hover{
+    color:#FF5959;
+    border: 1px solid #FF5959;
+    background-color: #e25f5f6e;
+}
+.box_1{
+    margin-left: 13%;
 }
 
