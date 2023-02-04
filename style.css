@@ -34,6 +34,8 @@
     letter-spacing: 1px;
     margin-bottom: 6%;
 }
+
+
 .btn{
     background-color: #FF5959;
     text-decoration: none;
@@ -44,11 +46,11 @@
     border-radius: 10px;
 }
 
-.donate_today p{
-    color: #969696;
+.donate_today p, .donate_plan p, .contribute_child p, .ge_updates p{
+    color: #707070;
 }
 
-.donate_today h3{
+.donate_today h3, .donate_plan h3, .contribute_child h3, .ge_updates h3{
     text-align: center;
     padding-top: 6%;
     color: #121212;
@@ -80,7 +82,105 @@
 }
 hr{
     width: 75%;
-    padding-left: 10%;
-    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+.content_box{
+    display: flex;
+}
+
+.c_box{
+    padding: 18px 18px;
+    margin-right: 2%;
+    background-color: #e5e2e2;
+    font-size: 15px;
+    font-weight: 200;
+    height: 235px;
+    width: 253px;
+    border-radius: 5px;
+}
+
+.c_box p{
+    color: #707070;
+    text-align: justify;
+}
+
+.c_box_first{
+    margin-left: 18%;
+
+}
+
+.contribute{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.contribute_child{
+    width:40%
+}
+.left h3{
+    text-align: left;
+}
+.left p{
+    text-align: justify;
+    margin-bottom: 0;
+    color: #707070;
+    letter-spacing: 0px;
+    line-height: 25px;
+    
+}
+.lower_child{
+    margin-bottom: 15%;
+}
+
+.left .btn{
+    margin-left: 0%;
+}
+
+.contribute img{
+    height: 477px;
+    width: 456px;
+    padding-left: 25%;
+}
+
+.right{
+    margin-left: 10%;
+}
+
+.survie img{
+    padding-right: 25%;
+    padding-left: 0%;
+}
+
+input{
+    padding: 12px 0px;
+    width: 30%;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    color: #121212;
+}
+.input_with{
+    padding: 12px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.information{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: #121212;
+    font-family: lob;
+    padding: 2% 0;
+    text-align: center;
+}
+footer h4{
+    color: #FF5959;
+    font-size: 24px;
 }
 
