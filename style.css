@@ -175,16 +175,18 @@ input{
 
 footer{
     background-color: #121212;
-    font-family: lob;
-    padding: 2% 0;
     text-align: center;
+    padding-top: 1px;
 }
 footer h4{
     color: #FF5959;
-    font-size: 24px;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0px;
 }
 
 footer p{
     color: #707070;
     font-size: 15px;
+    padding-bottom: 2%;
 }
